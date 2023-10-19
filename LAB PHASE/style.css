@@ -1,0 +1,244 @@
+/* styling for logo */
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.logo{
+    margin-top: 15px;
+    margin-right: 150px;
+    font-size:large;
+    font-family:monospace;
+   color: rgb(18, 23, 75);
+}
+
+/* styling for the header */
+header{
+    display: flex;
+    justify-content:center;
+    position:f xed;
+    background-color: white;
+    margin-bottom: 10px;
+    
+}
+
+.ownnav ul{
+    list-style: none;
+    font-weight: bold;
+    padding-right: 200px;
+    
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    
+    
+}
+.ownnav li:hover .submenu {
+    display: block ;
+}
+
+
+.ownnav li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.ownnav li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
+
+.pro{
+    width: 20px;
+    margin-top: 1px;
+}
+/* sign up styling */
+.login{
+    width: 27px;
+    height: 27px;
+    padding-right: 12px;
+    padding-top: 14px;
+    color: black;
+}
+
+.button{
+    margin-top: 13px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 10px;
+    padding:  0.4rem  0.4rem;
+    background-color: #ffcd1f;
+    color: rgb(18, 23, 75);
+    font-weight: 600;
+}
+
+.button:hover {
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+
+.button2:hover {
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
+
+/* styling for the 1st container */
+#container{
+background-color: #ffcd1f;
+}
+
+.header1{
+    padding-top: 60px;
+    padding-left: 90px;
+    
+}
+
+.paragraph1{
+    padding-left: 90px; 
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.img{
+    padding-left: 700px;   
+    
+}
+
+.button2{
+    background-color:rgb(18, 23, 75);
+    color: #ebebeb;  
+    border-radius: 10px;
+    border: none;
+    font-weight: 790;  
+    margin-left:320px;
+    margin-top: 10px;
+    padding:  0.9rem  0.9rem;
+}
+
+.coontainer2{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 600px;
+    
+}
+
+.img2{
+    padding-left: 490px;
+   width:300px;
+   
+}
+
+.topic {
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    font-size:xx-large;
+}
+
+.paragraph2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.container3{
+    background-color: rgb(196, 196, 255);
+}
+
+
+
+
+.img3{
+    width: 550px;
+}
+
+.topic2{
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 600px;
+    padding-top: 30px;
+    color: rgb(60, 74, 138);
+}
+
+.paragraph3{
+    padding-left: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 690;
+    color:rgb(70, 82, 134) ;
+}
+
+.img4{
+    padding-left: 170px;
+}
+/* styling of the footer page */
+.cookies{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.socials{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.icons{
+    text-align: center;
+    
+}
+
+.icons a{
+    margin-inline: 40px;
+}
+
+.icons a img{
+    width: 32px;
+    
+}
+.tel{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 660px;
+    color: white;
+    padding-top: 25px;
+}
+
+.number{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: white;
+    padding-top: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.email{
+text-align: center;
+padding-top: 25px;
+}
+
+footer{
+    justify-content: space-between;
+    background-color: black;
+}

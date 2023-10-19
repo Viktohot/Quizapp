@@ -1,0 +1,82 @@
+<!-- subscription page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GO PRO</title>
+    <link rel="stylesheet" href="./Gopro.css"/>
+</head> 
+<body>    <a href="home.html"><img class="arrow" src="./arrow-left.png"/></a>
+    <h2>SUBSCRIPTIONS</h2>
+    <div class="card">
+        <div class="content">
+          <p class="heading"> CLASSIC <img src="./star (1).png"/>
+          </p>
+          <div class="price">
+            <img src="./dollar-symbol.png" > <p>100</p>
+          </div>
+          <p class="para">
+            "Unlock the power of productivity! <br>
+            Subscribe today to learn essential computing skills<br>
+             In MS Word, Excel, and PowerPoint. Enhance your career prospects,<br> 
+             streamline tasks, and boost your confidence with these fundamental tools.<br>
+             Don't miss out on the opportunity to excel in your digital journey."<br>
+          </p>
+          <button class="btn" id="subscribeButton1">SUBSCRIBE</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <p class="heading">PREMIUM <img src="./star (1).png "/> <img src="./star (1).png"/>
+          </p>
+          <div class="price">
+            <img src="./dollar-symbol.png" > <p>300</p>
+          </div>
+          <p class="para">
+            "Unleash your creativity! <br>
+            Subscribe now to master the essentials of design software like CorelDRAW,<br>
+             Photoshop, and more. Explore your artistic potential,<br>
+              create stunning visuals, 
+              and open up a world of graphic design possibilities.<br> 
+            Start your design journey today and turn your imagination into reality!"
+          </p>
+          <button class="btn" id="subscribeButton2">SUBSCRIBE</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <p class="heading"> GOLD <img src="./star (1).png "/> <img src="./star (1).png"/> <img src="./star (1).png "/></p>
+          <div class="price">
+            <img src="./dollar-symbol.png" > <p>600</p>
+          </div>
+          <p class="para">
+            "Discover the art of coding! Subscribe today to explore the fundamentals<br>
+             of programming in languages like React,<br>
+              HTML, CSS, and JavaScript. Unleash your coding potential, <br>
+              design stunning websites, 
+              and create dynamic web applications. <br>Join us on this coding adventure and 
+            unlock boundless possibilities in the digital realm!"
+          </p>
+          <button class="btn" id="subscribeButton3">SUBSCRIBE</button>
+        </div>
+      </div>
+      
+      <div id="subscribeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Payment Information</h2>
+            <p>Account Number: <span id="accountNumber">XXXXXXXX</span></p>
+            <p>Account Name: <span id="accountName">Your Name</span></p>
+            <p>Bank: <span id="bankName">Your Bank</span></p>
+            <p>Upload Proof of Payment:</p>
+            <input type="file" id="proofOfPayment" accept="image/*">
+            <button id="uploadButton">Upload</button>
+        </div>
+    </div>
+     
+<script src="./gopro.js"></script>
+</body>
+</html>

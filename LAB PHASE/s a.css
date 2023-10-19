@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-size:x-large;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    text-decoration: underline ;
+    padding-left: 35px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    padding-left:8.5%;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+   background-color: whitesmoke;
+  
+}
+
+.video{
+    margin-left: 470px;
+    border-radius: 9px;
+    margin-bottom: 50px;
+}
+
+img{
+    margin-left: 950px;
+    margin-top: 0px;
+}
+
+.button{
+  border: none;
+  border-radius:10px;
+  background-color: rgb(18, 23, 75);
+  padding:  0.9rem  0.9rem;
+  margin-right: 830px;
+  
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.arrow{
+    margin-left: 20px;
+    margin-top: none;
+}
+
+.link{
+    margin-left: 7px;
+    text-decoration: none;
+    background-color: rgb(18, 23, 75);
+    color: white;
+    padding:  0.9rem  0.9rem;
+    border-radius: 10px;
+}
+
+.last-btns{
+    margin-inline: 70px;
+    
+}

@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    width: 100%; /* To ensure the container takes the full width */
+}
+
+.image-container,
+.text-container {
+    display: inline-flex;
+    vertical-align: top; /* Align elements to the top */
+    width: 34%; /* Adjust the width to control the space between image and text */
+    padding: 90px; /* Add spacing around the image and text */
+}
+
+img {
+    width:550px; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+
+
+p {
+    padding-top: 70px;
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+h3{
+    padding-left: 40px;
+}
+
